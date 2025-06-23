@@ -1,0 +1,25 @@
+### specify files and folders to exclude from version control ###
+# stupid virtual environments
+.book/
+book/
+.venv/
+venv/
+
+# stupid pycache
+backend/tests/__pycache__/*
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# stupid macs
+.DS_Store
+*.log
+
+instance/
+*.db
+instance/bookbuddy.db
+
+node_modules/
+
+.env

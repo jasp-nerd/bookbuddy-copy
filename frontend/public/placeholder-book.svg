@@ -1,0 +1,23 @@
+<svg width="128" height="180" viewBox="0 0 128 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Book cover background -->
+  <rect width="128" height="180" rx="8" fill="#f3f4f6"/>
+  
+  <!-- Book spine -->
+  <rect x="8" y="8" width="112" height="164" rx="4" fill="#e5e7eb"/>
+  
+  <!-- Book pages -->
+  <rect x="12" y="12" width="104" height="156" rx="2" fill="white"/>
+  
+  <!-- Book title lines -->
+  <rect x="20" y="40" width="88" height="4" rx="2" fill="#9ca3af"/>
+  <rect x="20" y="50" width="70" height="4" rx="2" fill="#9ca3af"/>
+  
+  <!-- Book icon -->
+  <path d="M64 80 L48 90 L64 100 L80 90 Z" fill="#6b7280"/>
+  <rect x="48" y="90" width="32" height="20" rx="2" fill="#d1d5db"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="64" cy="130" r="8" fill="#e5e7eb"/>
+  <rect x="56" y="150" width="16" height="2" rx="1" fill="#9ca3af"/>
+  <rect x="56" y="155" width="12" height="2" rx="1" fill="#9ca3af"/>
+</svg> 
