@@ -786,7 +786,7 @@ def book_search_title(query: str) -> List[Dict[str, Any]]:
     '''
     spliced = query.lower().split()
     spliced = "+".join(spliced)
-    resonse = requests.request("GET",f"https://www.googleapis.com/books/v1/volumes?q=intitle:{spliced}&orderBY=relevance&key={os.environ["API_KEY"]}" )
+    resonse = requests.request("GET", f"https://www.googleapis.com/books/v1/volumes?q=intitle:{spliced}&orderBY=relevance&key={os.environ['API_KEY']}")
     return resonse.json()["items"]
 
 @app.route("/submit_review", methods=["POST"])
